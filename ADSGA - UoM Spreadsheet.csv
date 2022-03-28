@@ -1,0 +1,146 @@
+Attribute Category,Attribute Name,Suggested Notation,Scientific Measurement/Description,Unit Name,Standard Unit (UoM),Reference Organisation,Range of Measurement,Unit Conversion Factors
+Air Monitoring,PM 1.0,PM1_0,Particulate Matter (aerodynamic diameter equal or less than 1 µm)  ,micrograms per cubic metre,µg/m3,N/A,,"1 µg/m3 = 0.001 mg/m3, µg/m3 = 0.0409 x concentration (ppb) x molecular weight "
+Air Monitoring,PM 2.5,PM2_5,Particulate Matter (aerodynamic diameter equal or less than 2.5 µm),micrograms per cubic metre,µg/m3,WHO/FRL,,"1 µg/m3 = 0.001 mg/m3, µg/m3 = 0.0409 x concentration (ppb) x molecular weight "
+Air Monitoring,PM 4.0,PM4_0,Particulate Matter (aerodynamic diameter equal or less than 4 µm),micrograms per cubic metre,µg/m3,N/A,,"1 µg/m3 = 0.001 mg/m3, µg/m3 = 0.0409 x concentration (ppb) x molecular weight "
+Air Monitoring,PM 10,PM10,Particulate Matter (aerodynamic diameter less than 10 µm),micrograms per cubic metre,µg/m3,WHO/FRL,,"1 µg/m3 = 0.001 mg/m3, µg/m3 = 0.0409 x concentration (ppb) x molecular weight "
+Electronic Components,Bandwidth,connectionRate,Data signalling rate; network transmission capacity,bits per second,bps,IEC,,
+Electronic Components,Battery,batteryVoltage,Current flow (potential difference of electromotive force),voltage,V,BIPM,,"1 V = 0.001 kV, 1 V = 1,000 mV"
+Electronic Components,Battery Capacity,battery_mAh,Battery current dishcharge over time,milliamp hour,mAh,IEC,,1 mAh = 0.001 Ah
+Electronic Components,Battery Percent,batteryPercent,Battery power level percentage (based on power capacity),percentage,%,IEC,0-100%,
+Electronic Components,Charging Status,chargingStatus,Device charging status (charging/not charging),alphanumerical,Y/N,N/A,Yes/No,
+Electronic Components,Date and Time,dateTime,Date and Time in UTC,yyyy-mm-ddT00:00:00Z,,BOM,,
+Electronic Components,Electric Current,electric_current_ampere,Rate of electrical flow (1 coulomb per second),ampere,A,BIPM,,"1 A = 1,000 mA, 1 A = 1,000,000 µA"
+Electronic Components,Fan Speed,fanSpeed,Rotational speed of fan,revolutions per minute,rpm,IEC,,
+Electronic Components,Fan Status,fanStatus,Working status of fan; working/not working,alphanumerical,Y/N,IEC,Yes/No,
+Electronic Components,Power Status,powerStatus,Device power status (receiving power/not receiving power),alphanumerical,Y/N,IEC,Yes/No,
+Electronic Components,Probe Height,probeHeight,Probe height above ground,metres,m,BOM,,1 m = 3.28084 ft
+Electronic Components,Rain Gauge Height,rainGaugeHeight,Gauge height above ground,metres,m,BOM,,1 m = 3.28084 ft
+Electronic Components,Signal Level,signallevel,Power ratio in decibels to one milliwatt,decibel milliwatts,dBm,BIPM,,1 dBm = 1.3 mW
+Electronic Components,Solar Panel,kWh,Energy generated from solar panel,kilowatt hours,kWh,FRL,,1 kWh = 3.6 MJ
+Electronic Components,Wind Probe Height,windProbeHeights,Wind probe height above ground,metres,m,BOM,,1 m = 3.28084 ft
+Movement Sensors,Accelerometer-X,X,Acceleration on X-axis,metre per square second,m/s2,IEC,,1 m/s2 = 0.10197162129779 g-unit
+Movement Sensors,Accelerometer-Y,Y,Acceleration on Y-axis,metre per square second,m/s2,IEC,,1 m/s2 = 0.10197162129779 g-unit
+Movement Sensors,Accelerometer-Z,Z,Acceleration on Z-axis,metre per square second,m/s2,IEC,,1 m/s2 = 0.10197162129779 g-unit
+Movement Sensors,Altitude,altitude,Height above sea level,metres,m,WMO,,"1 m = 0.001 km, 1 m = 0.000621371 mi"
+Movement Sensors,Count,count,Counter (cumulative),numerical,,N/A,>0,
+Movement Sensors,Distance,distance,Distance between two GPS coordinates,metres,m,WMO,,"1 m = 0.001 km, 1 m = 0.000621371 mi"
+Movement Sensors,Heart Rate,heartRate,Heart rate using monitoring device ,numerical,bpm,N/A,>0,
+Movement Sensors,Latitude,latitude,Latitude location using GPS tracking device,degrees decimal,°,WMO,-90° to 90°,
+Movement Sensors,Longitute,longitute,Longitutde location using GPS tracking device,degrees decimal,°,WMO,-180° to 180°,
+Movement Sensors,Number of events,numberOfEvents,Count of events,numerical,,BOM,>0,
+Movement Sensors,Status,status,Gate/door sensor; status - open/closed,alphanumerical,O/C,N/A,Open/Close,
+Movement Sensors,Temperature,animalTemperature,Animal temperature using monitoring device ,degrees Celsius,°C,OIML,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Soil Monitoring,AEC,anion_exchange_capacity,Anion Exchange Capacity,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Al Saturation,aluminium_saturation,Al saturation percentage ,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Aluminium (Al),aluminium_concentration,Al concentration,percentage,%,CSIRO SCMA,,multiply % by 10^4 to report in mg/kg 
+Soil Monitoring,Ammonium-N (NH4+),ammonium_as_N_concentration,Concentration of ammonium as nitrogen,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Anion Storage Capacity,anion_storage_capacity,Previously P retention,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Arsenic (As),arsenic_concentration,As content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Base Saturation (BSP),base_saturation_percentage,Saturation of bases,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Bulk Density,bulk_density_soil,Measure of soil (ratio of mass to volume),grams per cubic centimetre ,g/cm3,ASRIS / SPMILE,,"1 g/cm3 = 1,000 kg/m3"
+Soil Monitoring,Calcium (Ca),calcium_concentration,Ca concentration,percentage,%,CSIRO SCMA,,multiply % by 10^4 to report in mg/kg 
+Soil Monitoring,Calcium (Ca),calcium_concentration,Ca content (Mehlich 3),milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb, divide mg/kg by 10^4 to report in %"
+Soil Monitoring,Calcium Carbonate (CaCO3),calcium_carbonate_concentration,CaCO3 concentration,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Carbon (C),carbon_concentration,Total C concentration,percentage,%,CSIRO SCMA,,
+Soil Monitoring,CEC,cation_exchange_capacity,Cation Exchange Capacity,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Chloride (Cl),chloride_concentration,Cl concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Chloride SE (Cl),chloride_concentration_SE,Cl concentration in Saturation Extract,milliequivalents per litre,meq/L,CSIRO SCMA,,multiplymeq/L by 35.453 to convert to mg/L
+Soil Monitoring,Chromium (Cr),chromium_concentration,Cr concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Clay Content,clay_concentration,Soil texture/type; clay concentration,percentage,%,ASRIS / SPMILE,,
+Soil Monitoring,Cobalt (Co),cobalt_concentration,Co concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Copper (Cu),copper_concentration,Cu concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,EC,electrical_conductivity_soil,Electrical conductivity,decisiemens per metre,dS/m,CSIRO SCMA,,"1 dS/m = 1 mS/cm, 1 dS/m = 100 mS/m, 1 dS/m = 1,000 µS/cm, ppm = EC (dS/m) x 640 (EC from 0.1 to 5 dS/m), ppm = EC (dS/m) x 800 (EC > 5 dS/m) "
+Soil Monitoring,ECEC,cation_exchange_effective_capacity,Effective Cation Exchange Capacity,milliequivalents per hectogram,meq/hg ,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Ex Aluminium (Al3+),exchangeable_aluminium,Amount of exchangeable Al,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Ex Calcium (Ca2+),exchangeable_calcium,Amount of exchangeable Ca,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Ex Magnesium (Mg2+),exchangeable_magnesium,Amount of exchangeable Mg ,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Ex Potassium (K+),exchangeable_potassium,Amount of exchangeable K,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Ex Sodium (Na+),exchangeable_sodium,Amount of exchangeable Na,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Extractable Al,extractable_aluminium,Extractable Al content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb, divide mg/kg by 10^4 to report in %"
+Soil Monitoring,Extractable Boron (B),extractable_boron,Extractable B content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Extractable Cadmium (Cd),extractable_cadmium,Extractable Cd content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Extractable Fe,extractable_iron_content,Extractable Fe content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb, divide mg/kg by 10^4 to report in %"
+Soil Monitoring,Extractable K,extractable_potassium,Extractable K content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb, divide mg/kg by 391 to report in meq/hg"
+Soil Monitoring,Extractable Mg,extractable_magnesium,Extractable Mg content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb, divide mg/kg by 10^4 to report in %"
+Soil Monitoring,Extractable P,extractable_phosphorus,Extractable P content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb,  divide mg/kg by 10^4 to report in %"
+Soil Monitoring,Extractable P (CaCl2),extractable_phosphorus_CaCl2,Total extractable P content using CaCl2 ,micrograms per kilogram,µg/kg,CSIRO SCMA,,"1 µg/kg = 0.001 ppm, 1 µg/kg = 1 ppb"
+Soil Monitoring,Extractable S,extractable_sulfur,Extractable S content,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb, divide mg/kg by 10^4 to report in %"
+Soil Monitoring,Fluoride (F-),fluoride_concentration,F- concentration,milliequivalents per litre,meq/L,CSIRO SCMA,,multiply meq/L by 18.998 to convert to mg/L
+Soil Monitoring,Gravel Content,gravel_concentration,Soil texture/type; gravel concentration,percentage,%,ASRIS / SPMILE,,
+Soil Monitoring,Gypsum,gypsum,Total Gypsum,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Hydrogen (H),exchangeable_hydrogen,Amount of exchangeable H cation,milliequivalents per hectogram,meq/hg,CSIRO SCMA,,1 meq/hg = 1 cmol(+)/kg
+Soil Monitoring,Iron (Fe),iron_concentration,Fe concentration,percentage,%,CSIRO SCMA,,multiply % by 10^4 to report in mg/kg 
+Soil Monitoring,Lead (Pb),lead_concentration,Pb concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Magnesium (Mg),magnesium_concentration,Mg concentration,percentage,%,CSIRO SCMA,,multiply % by 10^4 to report in mg/kg 
+Soil Monitoring,Manganese (Mn),manganese_concentration,Mn concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Molybdenum (Mo),molybdenum_concentration,Mo concentration (CaCl2),milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Na Saturation (ESP),sodium_saturation,Saturation of exchangeable Na+,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Nickel (Ni),nickel_concentration,Amount of Ni in soil sample,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Nitrate-N (NO3-N),nitrate_concentration,Amount of N in nitrate form,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Nitrite-N (NO2-N),nitrite_concentration,Amount of N in nitrite form,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Nitrogen (N),nitrogen_concentration,Total N concentration,percentage,%,CSIRO SCMA,,
+Soil Monitoring,PBI,phosphorus_buffering_index,Phosphorus Buffering Index (PBI),numerical scaled quantity,unitless,CSIRO SCMA,,
+Soil Monitoring,Phosphorus (P),phosphorus_concentration,Total P concentration,percentage,%,CSIRO SCMA,,multiply % by 10^4 to report in mg/kg 
+Soil Monitoring,PMN,potentially_mineralisable_n,Potentially mineralisable N,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Potassium (K),potassium_concentration,Total K concentration,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Redox potential (Eh; field),field_eh_redox,In field-based method for redox potential,millivolts,mV,CSIRO SCMA,,"1 mV = 0.001 V, 1 mV = 1000 µV"
+Soil Monitoring,Sand Content,sand_concentration,Soil texture/type; sand concentration,percentage,%,ASRIS / SPMILE,,
+Soil Monitoring,SIC,carbon_inorganic_concentration,Soil Inorganic Carbon (SIC) content,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Silicon (Si),silicon_concentration,Si concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Silt Content,silt_concentration,Soil texture/type; silt concentration,percentage,%,ASRIS / SPMILE,,
+Soil Monitoring,SOC ,carbon_organic_concentration,Soil Organic Carbon (SOC) content,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Sodium (Na),sodium_concentration,Na concentration,milligrams per kilogram,mg/kg,CSIRO SCMA,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Soil Monitoring,Soil Depth,soil_depth,Depth of soil from soil surface,centimetre,cm,FAO / DPIRD,,"1 cm = 10 mm, 1 cm = 0.01 m"
+Soil Monitoring,Soil Ionic Strength,soil_ionic_strength,Report estimated soil ionic strength as mM,millimolar,mM,CSIRO,,1 mM = 1000000 nM
+Soil Monitoring,Soil Moisture,soil_moisture,Moisture content of soil (air-dry and as received),percentage,%,CSIRO,,
+Soil Monitoring,Soil Moisture GWC,gravimetric_soil_moisture,Water Content (H2O weight/unit of soil) %m/m,ratio percent (mass/mass),%,ASRIS / SPMILE / WMO,,
+Soil Monitoring,Soil Moisture VWC,volumetric_soil_moisture,Water Content (H2O volume/soil volume) %v/v,ratio percent (volume/volume) ,%,ASRIS / SPMILE / WMO,,
+Soil Monitoring,Soil pH,pH_soil,"pH with 1:5 (H2O, CaCl2)", -log of [H+] ions ,pH,CSIRO,,
+Soil Monitoring,Soil Porosity,soilPorosity,Porosity of soil,percentage,%,ASRIS / SPMILE,,
+Soil Monitoring,Soil Temp. Average,soilTemperatureAvg,Average soil temperature,degrees Celsius,°C,DPIRD,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Soil Monitoring,Soil Temp. Max,soilTemperatureMax,Maximum soil temperature,degrees Celsius,°C,DPIRD,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Soil Monitoring,Soil Temp. Min,soilTemperatureMin,Minimum soil temperature ,degrees Celsius,°C,DPIRD,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Soil Monitoring,Soil Temperature,soilTemperature,Temperature of soil at a given depth,degrees Celsius,°C,CSIRO SCMA,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Soil Monitoring,Soluble Mg,soluble_magnesium,Soluble Mg content,milliequivalents per litre,meq/L,CSIRO SCMA,,multiply meq/L by 12.15 to convert to mg/L
+Soil Monitoring,Soluble Salt Concentration,soluble_salt_concentration,Estimated soluble salt concentration,percentage,%,CSIRO SCMA,,
+Soil Monitoring,Sulfate-S (SO4-S),sulfate_concentration,Concentration of S in Sulfate form,milliequivalents per litre,meq/L,CSIRO SCMA,,multiply meq/L by 16.03 to convert to mg/L
+Soil Monitoring,Sulfur (S),sulfur_concentration,Total S concentration,percentage,%,CSIRO SCMA,,multiply % by 10^4 to report in mg/kg 
+Soil Monitoring,Water Potential Matric,soil_water_potential_matric,Soil water potential/soil suction,kilopascal,kPa,SPMILE / WMO,,"1 kPa = 10 hPa, 1 kPa = 1,000 Pa, 1 kPa = 7.50062 mmHg, 1 kPa = 10 mbar, –1.0 m (water at 20°C) = –9.8 kPa, –0.098 bar"
+Soil Monitoring,Zinc (Zn),zinc_concentration,Zn concentration,milligrams per kilogram,mg/kg,CSIRO,,"1 mg/kg = 1 ppm, 1 mg/kg = 1,000 ppb"
+Water Monitoring,Pressure Sensor,gaugePressure,Pressure sensor reading,pound per square inch,psi,N/A,,"1 psi = 0.006894757 Mpa, 1 psi = 0.06894757 bar, 1 psi = 6.894757 kPa, 1 psi = 68.94757 mbar, 1 psi = 6894.757 Pa"
+Water Monitoring,Water Flow (24 Hr),cumulativeVolume,Rate of water movement; volume per 24 hours,litres per day,l/d,DAWE,,"1 l/h = 0.001 m3/h, 1 l/h = 0.001 kL/h, 1 l/h = 0.000277778 l/s"
+Water Monitoring,Water Flow (Hr),waterVolume,Rate of water movement; volume per hour,litres per hour,l/h,DAWE,,"1 l/h = 0.001 m3/h, 1 l/h = 0.001 kL/h, 1 l/h = 0.000277778 l/s"
+Water Monitoring,Water Level,waterlevel,Current depth/height of water,millimetre,mm,N/A,,
+Water Monitoring,Water Percent,calcfull_waterlevel,Current capacity (percentage: waterlevel/maxlevel),percentage,%,N/A,0-100%,
+Weather Monitoring,Apparent Temperature,apparentTemperature,Thermal comfort observation,degrees Celsius,°C,BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Atmospheric Pressure,atmosphericPressure,Atmospheric Pressure; force per unit area by atmosphere above,hectopascal,hPa,WMO,,"1 hPa = 0.1 kPa, 1 hPa = 100 Pa, 1 hPa = 0.750062 mmHg, 1 hPa = 1 mbar"
+Weather Monitoring,Cumulative Rainfall,cumulativeRainfall,Running total of precipitation,millimetre,mm,WMO / BOM,,
+Weather Monitoring,Delta T,deltaT,Difference in wet and dry bulb temperature,degrees Celsius,°C,BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Delta T Average,deltaTAvg,Average Delta T observation,degrees Celsius,°C,BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Delta T Maximum,deltaTMax,Maximum Delta T observation,degrees Celsius,°C,BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Delta T Minimum,deltaTMin,Minimum Delta T observation,degrees Celsius,°C,BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Dew Point,dewPoint,Lowest temperature required for dewdrops to form,degrees Celsius,°C,BOM / WMO,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,ETo,evapotranspiration,Reference evapotranspiration,millimetres per day,mm/d,BOM,,
+Weather Monitoring,ETo Short,evapotranspirationShortCrop,Reference evapotranspiration for short crops,millimetres per day,mm/d,BOM,,
+Weather Monitoring,ETo Tall,evapotranspirationTallCrop,Reference evapotranspiration for tall crops,millimetres per day,mm/d,BOM,,
+Weather Monitoring,Evaporation,evaporation,Depth of water evaporation per day,millimetre,mm,WMO / BOM,,
+Weather Monitoring,Rainfall,rainfall,Depth of precipitation over period of time,millimetre,mm,WMO / BOM,,
+Weather Monitoring,Relative Humidity (RH),relativeHumidity,Ratio of ambient air water and air capacity (% RH),percentage,%,WMO,0-100%,
+Weather Monitoring,RH Average,relativeHumidityAvg,Average relative humidity,percentage,%,WMO,0-100%,
+Weather Monitoring,RH Maximum,relativeHumidityMax,Maximum relative humidity,percentage,%,WMO,0-100%,
+Weather Monitoring,RH Minimum,relativeHumidityMin,Minimum relative humidity,percentage,%,WMO,0-100%,
+Weather Monitoring,Solar Exposure,solarExposure,Solar Exposure,mega joules per square metre,MJ/m2,WMO / BOM,,
+Weather Monitoring,Solar Radiation,solarIrradiance,Solar Irradiance,watts per square metre,W/m2,WMO / BOM,,"1 W/m2 = 1,000 mW/m2, 1 W/m2 = 100 µW/cm2, 1 W/m2 = 0.1 mW/cm2, 1 W/m2 = 0.001 kW/m2, 1 W/m2 = 0.0001 W/cm2"
+Weather Monitoring,Sunshine Duration,sunshineHours,Sum of all time periods during the day when direct solar irradiance ?120 W/m2,hours,h,WMO / BOM,,
+Weather Monitoring,Temperature,airTemperature,Air temperature,degrees Celsius,°C,WMO / BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Temperature Average,airTemperatureAvg,Average air temperature for given period,degrees Celsius,°C,DPIRD,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Temperature Max,airTemperatureMax,Maximum air temperature for given period,degrees Celsius,°C,DPIRD,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Temperature Min,airTemperatureMin,Minimum air temperature for given period,degrees Celsius,°C,DPIRD,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,UV Index,uvIndex,Ultraviolet radiation; scaled indicator,numerical scaled quantity,,WHO,,
+Weather Monitoring,Visibility,horizontalVisibility,Horizontal distance of visibility,kilometres,km,WMO / BOM,,"1 km = 1,000 m, 1 km = 0.621371 mi"
+Weather Monitoring,VPD,vapourPressureDeficit,Vapour Pressure Deficit,kilopascal,kPa,FAO,,"1 kPa = 10 hPa, 1 kPa = 1,000 Pa, 1 kPa = 7.50062 mmHg, 1 kPa = 10 mbar"
+Weather Monitoring,Wet Bulb,wetBulb,Wet bulb temperature,degrees Celsius,°C,BOM,,"°F = (°C × [9/5]) + 32, K = °C + 273.15"
+Weather Monitoring,Wind Direction,windDirection,Wind direction; clockwise from geographical north,degrees,°,WMO,0°-360°,"90° = East to West, 180° = South to North, 270° = West to East, 360° = North to South"
+Weather Monitoring,Wind Speed,windSpeed,Wind speed; rate of air movement,kilometres per hour,km/h,WMO / BOM,,"1 m/s = 3.6 km/h, 1 kt = 1.852 km/h"
+Weather Monitoring,Wind Speed Average,windAvgSpeed,Average rate (speed) of air movement,kilometres per hour,km/h,WMO / BOM,,"1 m/s = 3.6 km/h, 1 kt = 1.852 km/h"
+Weather Monitoring,Wind Speed Maximum,windMaxSpeed,Maximum rate (speed) of air movement,kilometres per hour,km/h,WMO / BOM,,"1 m/s = 3.6 km/h, 1 kt = 1.852 km/h"
